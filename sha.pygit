@@ -1,0 +1,9 @@
+raja=int(input("enter the number"))
+rani=int(input("enter the number"))
+roopa=int(input("enter the number"))
+if raja<rani and raja<roopa:
+    print("raja is youngest")
+if rani<raja and rani<roopa:
+     print("rani is youngest")
+if roopa<raja and roopa<rani:
+     print("roopa is youngest")
